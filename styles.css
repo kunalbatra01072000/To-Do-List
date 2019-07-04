@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+header{
+    text-align: center;
+    color: rgb(17, 17, 63);
+    padding-top: 1em;
+    border-bottom: 2px solid violet;
+    margin-bottom: 2em;
+}
+header h1{
+    font-size: 5vw;
+}
+
+.Table{
+    border: 1px solid violet;
+    border-radius: 10px;
+    
+}
+
+.table-col{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-content{
+    text-align: center;
+}
+
+.Sno{
+    width: 8%;
+    padding-right: 10px;
+    font-size: 3vw;
+    
+}
+
+.Job{
+    width: 38%;
+    font-size: 3vw;
+    max-width:35%;
+    
+}
+
+.Start-time{
+    width:15%;
+    padding: 0 10px 0 10px;
+    font-size: 3vw;
+    
+}
+
+.End-time{
+    width: 15%;
+    padding-right: 10px;
+    font-size: 3vw;
+   
+}
+
+.Status{
+    width:10%;
+    padding-right: 5px;
+    font-size: 3vw;
+    
+}
+
+.Remove{
+   width:14%;
+   
+    padding-left: 20px;
+    font-size: 3vw;
+   
+}
+
+.table-headings{
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-bottom: 1px solid violet;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-bottom: 0.75em;
+}
+.table-content{
+    font-size:20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.AddButton{
+    
+    border: none;
+    background-color: #337AB7;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.AddButton:hover{
+    background-color: blue;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+.addNewJob{
+    margin-top: 100px;
+    border:1px solid #337AB7;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.delbtn{
+    background: #D9534F;
+    border:none;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.1vw;
+    
+}
+
+.delbtn:hover{
+    background: rgb(223, 31, 24);
+    font-weight: bold;
+}
+
+.FORM{
+    padding: 30px;
+}
+
+input[type=checkbox]{
+    width:2em;
+    height:2em;
+}
